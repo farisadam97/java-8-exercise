@@ -40,7 +40,7 @@ public class Number2 {
                 .filter(x -> x == Customer.ORACLE)
                 .collect(Collectors.toList());
 
-        invoices.stream()
+        List<Invoice> CollectionsSorted = invoices.stream()
                 .sorted()
                 .collect(Collectors.toList());
 
