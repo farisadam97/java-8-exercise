@@ -11,7 +11,6 @@ public class Number1 {
         System.out.println("");
 
 //        Get even number with stream
-        System.out.println("Get even numbers from list numbers");
         List<Integer> evenNumbers = numbers.stream().filter(i ->i%2 == 0).collect(Collectors.toList());
         System.out.println("List of even numbers : " + evenNumbers);
 
